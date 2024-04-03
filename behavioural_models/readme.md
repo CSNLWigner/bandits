@@ -19,7 +19,7 @@ More complex models defined as strategy aware, and strategy unaware models, by d
 
 - exponential_model.py - this file contains the exponential model. 
 
-- EXPONENTIAL MODEL CATALOGE - for monkey Kate - model fits, log losses for KA
+- EXPONENTIAL MODEL CATALOGE - for monkey Kate - model fits, log losses for Kate
 
 - EXPONENTIAL MODEL CATALOGE - for monkey Popey - model fits, log losses for Popey
 
