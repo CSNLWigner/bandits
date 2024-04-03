@@ -7,4 +7,6 @@ The exponential model fits the behaviour by calculating an action value based on
 
 **Probability of stay** = $\sigma [\sum\limits_{i=0}^8 a*e^{-b * t}+c ]$
 
+Here we fit the parameters a, b, and c. 
+
 
