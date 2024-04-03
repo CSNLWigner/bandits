@@ -20,11 +20,12 @@ class Exponential_model():
         
         '''
         - data: data
-        - name: 
-        - FSS: Specify whether the data is feedback source sensitive. Eg. strategy aligned. 
+        - name: freely defined string. 
+        - FSS: True/False. Specifies if the model is feedback source sensitive. (eg. strategy aware, or unaware).
         - fit_a2: {None, independent, pseudo}
-        - fit_eps: True/False. It specify whether the lower reward remains 0 in the {0, 1} coding regime, 
-            or 0 is changed "eps" which is a fitted value.
+        - fit_eps: True/False. It specifies whether the lower reward remains 0 in the {0, 1} coding regime, 
+            or 0 is changed to "eps" which is a fitted value.
+        - dropmissing: True/False. Specifies if after model fit the missing rows are omitted from the returned dataset. 
         '''
         
         #self.model_name = model_name
@@ -139,8 +140,6 @@ class Exponential_model():
         if self.dropmissing == True:
             self.data = self.data.dropna()
         return (self.data)
-
-
 
 
 class Optimize_exponent():
