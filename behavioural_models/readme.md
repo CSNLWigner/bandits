@@ -3,13 +3,10 @@
 The exponential model fits the behaviour by approximating the action value based on the outcomes of the previous 8 trials.  
 
 
-Action Value = 
+Action Value = $ \sum\limits_{i=0}^8 a*e^{-b*t}+c$
 
 
-$\sum_{t=1} ^ {8} \beta (t) = \sum_{t = 1} ^ {8}a*e^{-b*t}+c$
-
-
- $\sum\limits_{i=0}^n$
+ 
 
 
 $\sum_{t=1} ^{8}$
