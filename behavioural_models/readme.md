@@ -9,6 +9,9 @@ Action Value =
 $\sum_{t=1} ^ {8} \beta (t) = \sum_{t = 1} ^ {8}a*e^{-b*t}+c$
 
 
+ $\sum\limits_{i=0}^n$
+
+
 $\sum_{t=1} ^{8}$
 
 
