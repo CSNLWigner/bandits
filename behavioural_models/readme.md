@@ -23,7 +23,7 @@ More complex models defined as strategy aware, and strategy unaware models, by d
 
 - EXPONENTIAL MODEL CATALOGE - for monkey Popey - model fits, log losses for Popey
 
-    (For specifying the Exponential model arguments see: help(Exponential_model)).
+        (For specifying the Exponential model arguments see: help(Exponential_model)).
 
 **Analyses, model comparisons:** 
 - See in the exponential_model folder
