@@ -27,7 +27,7 @@ More complex models defined as strategy aware, and strategy unaware models, by d
 ## Logistic model 
 **Action Value** = $\beta{0}+\beta{1}*R_{t-1}+\beta{2}*R_{t-2}+...+\beta_{8}*R_{t-8}$
 
-- $p_{(swithc)} = \frac{e^{\beta{0}+\beta{1}*R_{t-1}+\beta{2}*R_{t-2}+...+\beta_{8}*R_{t-8}}}{1 + e^{\beta{0}+\beta{1}*R_{t-1}+\beta{2}*R_{t-2}+...+\beta_{8}*R_{t-8}}} = \sigma(\beta{0}+\beta{1}*R_{t-1}+\beta{2}*R_{t-2}+...+\beta_{8}*R_{t-8})  = \sigma(V_{t})$
+ **Probability of stay** = $\frac{e^{\beta{0}+\beta{1}*R_{t-1}+\beta{2}*R_{t-2}+...+\beta_{8}*R_{t-8}}}{1 + e^{\beta{0}+\beta{1}*R_{t-1}+\beta{2}*R_{t-2}+...+\beta_{8}*R_{t-8}}} = \sigma(\beta{0}+\beta{1}*R_{t-1}+\beta{2}*R_{t-2}+...+\beta_{8}*R_{t-8})  = \sigma(V_{t})$
 
 ### CODES 
 
