@@ -5,7 +5,11 @@ The exponential model fits the behaviour by approximating the action value based
 
 Action Value = 
 
-$\sum\limits_{i=0}^8 a*e^{-b*t}+c$
+$\sum\limits_{i=0}^8 a*e$
+
+
+
+^{-b*t}+c$
 
 
  
