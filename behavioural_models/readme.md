@@ -15,6 +15,7 @@ More complex models defined as strategy aware, and strategy unaware models, by d
 
 
 ## CODES 
+**Model fitting:** 
 
 - exponential_model.py - this file contains the exponential model. 
 
