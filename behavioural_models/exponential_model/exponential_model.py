@@ -156,7 +156,7 @@ class Optimize_exponent():
     data = None
 
     def save_data(self):
-        self.data.to_csv('./data/' + self.name + '.csv', index = False)
+        self.data.to_csv('./model_outputs/' + self.name + '.csv', index = False)
             
     @staticmethod
     def get_log_loss(x, data, FSS, fit_a2, fit_eps, dropmissing):
