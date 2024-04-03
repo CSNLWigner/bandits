@@ -24,3 +24,7 @@ More complex models defined as strategy aware, and strategy unaware models, by d
 - EXPONENTIAL MODEL CATALOGE - for monkey Popey - model fits, log losses for Popey
 
 
+## Logistic model 
+**Action Value** = $\beta{1} + \beta{2} + \beta{3} .. \beta{8}$
+
+
