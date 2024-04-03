@@ -5,6 +5,6 @@ The exponential model fits the behaviour by calculating an action value based on
 
 **Action Value** = $\sum\limits_{i=0}^8 a*e^{-b * t}+c$
 
-**Probability of stay** = $\sigma[(\sum _{t=1} ^{8} a*e^{b*t}*r_{t})+c]$
+**Probability of stay** = $\sigma [\sum\limits_{i=0}^8 a*e^{-b * t}+c ]$
 
-$\sqrt{3x-1}+(1+x)^2$
+
